@@ -1,5 +1,5 @@
 # MachineLearning_and_ImageProcessing
-Logistic Regression model built in order to identify if image is real or fake, including properties extraction algorithm
+Logistic Regression model built in order to identify if image is real or fake, including properties extraction algorithm.
 
 In this project we implement a Logistic Regression classification with Gradient Descent model in order to identify if image is real or fake.
 We used a database that contains 1000 images and divided into 500 'Real' images and 500 'Fake' images, in order to implement the machine learning model
