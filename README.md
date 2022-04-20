@@ -6,17 +6,17 @@ We used a database that contains 1000 images and divided into 500 'Real' images 
 we needed to extract suitable properties.
 
 The first part is the Image Proccesing part.
-In this part we read the images from the currect folders into a matrix, than we extract some properties from the images (including FFT, Azimuthal Average and more)
+In this part we read the images from the currect folders into a matrix, then we extract some properties from the images (including FFT, Azimuthal Average and more)
 and saved them for the second part.
 
 The second part is the Machine Learning part.
-In this part we implement a Logistic Regression classification with gradient descent from scratch and used him in order to create a regressor.
+In this part we implement a Logistic Regression classifier with gradient descent from scratch and used it in order to create a regressor.
 
 For the gradient descent we nedded to choose the best alpha and w0 
-while creating the regressor we needed to choose the best combination of alpha and w0.
+while creating the regressor we needed to choose the best combination of them.
         <img width="294" alt="image" src="https://user-images.githubusercontent.com/88097271/164233610-a0127445-c4e4-49f7-8936-9c6ec59a2552.png">
 
-For maximum performance in a small number of steps we have created a graphes that will help us decide :
+For maximum performance in a small number of steps we have created a graphs that will help us decide :
 
 <img width="860" alt="image" src="https://user-images.githubusercontent.com/88097271/164234188-7422beb7-cdb0-4e87-aa90-e1b001a7dce1.png"><img width="857" alt="image" src="https://user-images.githubusercontent.com/88097271/164234246-50a15d7a-9e02-4430-aaed-009549e3b3bb.png">
 
